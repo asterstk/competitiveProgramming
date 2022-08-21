@@ -4,27 +4,23 @@
 
 int main(){
 	using namespace std;
-	int n,k,a,i,l =0;
+	int n,k,a,i,l,m;
 	cin>>n>>k;
 	i=0;
-	while(k--){
+	m=k;
+	while(m--){
 		cin>>a;
 		if(a>0){
 			i++;
 		}
-		else {
-			i=i;
-		}
 	}
 	int  j = n-k;
-	while(j--){
+	while(j>0){
 		cin>>l;
-		if(l==a && l!=0){
+		if(l==a && l>0){
 			i++;
 		}
-		else {
-			break;
-		}
+		j--;
 	}
 	cout<<i;
 	return 0;
