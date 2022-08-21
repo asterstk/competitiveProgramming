@@ -1,3 +1,3 @@
 # competitiveProgramming
-Do not use the code!!!
-Many of them dont work!
+# Do not use the code!!!
+# Many of them dont work!
